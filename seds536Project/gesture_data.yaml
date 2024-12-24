@@ -1,0 +1,8 @@
+train: yolo_split_data/train/images
+val: yolo_split_data/val/images
+test: yolo_split_data/test/images
+
+nc: 2
+names:
+  0: "gesture_class0"
+  1: "gesture_class1"
